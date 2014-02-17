@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+<!-- Menu Layer1 -->
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="50dp"
+	    android:orientation="horizontal" >
+
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/courses_gradient"
+	    android:orientation="vertical" >
+	  
+	        <Button
+            android:id="@+id/btnAppetizers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/appertizers_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textAppetizers"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="Appetizers"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	     </LinearLayout>
+	    
+	 	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/courses_gradient"
+	    android:orientation="vertical" >
+	   
+	        <Button
+            android:id="@+id/btnBeverages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/beverages_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textBeverages"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:text="Beverages"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     </LinearLayout>
+	     
+	 	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/courses_gradient"
+	    android:layout_marginLeft="30dp"
+	    android:orientation="vertical" >
+	   
+	        <Button
+            android:id="@+id/btnBread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bread_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textBread"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Bread"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     </LinearLayout>
+
+	 </LinearLayout>
+	 
+<!-- Menu Layer2 -->
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="50dp"
+	    android:orientation="horizontal" >
+
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/courses_gradient"
+	    android:orientation="vertical" >
+	  
+	       <Button
+            android:id="@+id/btnBreakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/breakfast_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textBreakfast"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="Breakfast"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+	     </LinearLayout>
+	    
+	 	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/courses_gradient"
+	    android:orientation="vertical" >
+	   
+	        <Button
+            android:id="@+id/btnCakes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cakes_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textCakes"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:text="Cakes"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     </LinearLayout>
+	     
+	 	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/courses_gradient"
+	    android:layout_marginLeft="30dp"
+	    android:orientation="vertical" >
+	   
+	        <Button
+            android:id="@+id/btnCookies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cookies_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textCookies"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:text="Cookies"	    	
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     </LinearLayout>
+
+	 </LinearLayout>
+
+<!-- Menu Layer 3 -->	
+ 	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="50dp"
+	    android:orientation="horizontal" >
+
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/courses_gradient"
+	    android:orientation="vertical" >
+	  
+	       <Button
+            android:id="@+id/btnCustards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custards_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textCustards"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="Custards"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+	     </LinearLayout>
+	    
+	 	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:background="@drawable/courses_gradient"
+	    android:orientation="vertical" >
+	   
+	        <Button
+            android:id="@+id/btnDesserts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/desserts_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textDesserts"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:text="Desserts"
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     </LinearLayout>
+	     
+	 	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/courses_gradient"
+	    android:layout_marginLeft="30dp"
+	    android:orientation="vertical" >
+	   
+	        <Button
+            android:id="@+id/btnDressings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dressings_selector" />
+	        
+	        <TextView
+	    	android:id="@+id/textDressings"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_vertical|center_horizontal"
+	    	android:text="Dressings"	    	
+	    	android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	     </LinearLayout>
+
+	 </LinearLayout>       
+    
+</LinearLayout>
